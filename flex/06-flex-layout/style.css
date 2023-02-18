@@ -7,9 +7,60 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+.header  {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header ul {
+  display: flex;
+  list-style: none;
+  margin: 10px;
+  padding: 0;
+}
+
+.header ul li a {
+  text-decoration: none;
+  font-size: small;
+  color: #a9a9a9;
+  padding: 10px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer  {
+  display: flex;
+  justify-content: space-between;
+  background-color: #eeeeee;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer ul {
+  display: flex;
+  list-style: none;
+  margin: 10px;
+  padding: 0;
+}
+
+.footer ul li a {
+  text-decoration: none;
+  font-size: small;
+  color: #a9a9a9;
+  padding: 10px;
+}
+
 img {
   width: 600px;
 }
+
+
 
 button {
   font-family: Roboto, sans-serif;

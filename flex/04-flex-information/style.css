@@ -10,6 +10,23 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  text-align: center;
+}
+
+.card_container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 32px;
+}
+
+.card {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+}
+
+.card .text {
+  width: 200px;
 }
 
 /* do not edit this footer */
